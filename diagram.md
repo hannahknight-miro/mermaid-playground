@@ -1,0 +1,8 @@
+```mermaid
+flowchart TD
+    A([Start]) --> B{Decision}
+    B -->|Yes| C[Option A]
+    B -->|No| D[Option B]
+    C --> E([End])
+    D --> E
+```
